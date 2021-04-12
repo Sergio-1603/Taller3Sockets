@@ -13,15 +13,14 @@
 - David Leonardo, Lopez Forero.
 - Briannys Ahiram, Páez Monserrate. 
 - Sergio Eduardo, Peña Alméciga.
-- Jorge Andrés, Ramírez Perez.
 
 ### Acerca de ###
 *
 Instrucciones de Uso: 
-1. Se debe ejecutar aparte el servidor principal el cual tiene su propio main que se encuentra en la clase ServidorPrincipal en el modelo, una vez que mande el mensaje "servidor corriendo" es porque todo está bien.
-2. Se debe modificar la clase ServidorCliente linea 22 en el modelo con la dirección ip de la persona que va a correr el servidor principal.
-3. Debe iniciar sesión con un agente y después con un ciudadano para que el chat funcione.
-4. Cuando el programa pregunta la dirección ip ingresar la propia dirección ip.
+1. Se debe ejecutar la clase ChatServer que se encuentra en el modelo, una vez ejecutada correctamente enviará el mensaje "The chat server is running"
+2. Se debe ejecutar la clase Main y saldrá una interfaz con su respectivo chat iniciado como ciudadano
+3. Para chatear se ejecutará la clase ChatAgente y saldrá una interfaz igual a la del punto 2 con su respectivo chat pero iniciado como agente
+4. Ya se podrá chatear entre ambas interfaces.
 
 ### Enunciados ###
 *
